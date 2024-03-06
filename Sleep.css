@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: SeaShell;
+    margin: 0 auto;
+    width: 480px;
+    border: 5px solid green;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+h1 {
+    color: green;
+    margin: 0 0 .5em;
+}
+
+h2 {
+    margin-top: 20px; /* Added margin for better separation */
+}
+
+label {
+    width: 1em;
+    margin-right: 1em;
+    font-weight: bold; /* Making labels bold */
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    width: calc(100% - 22px); /* Adjusted width to accommodate for padding and border */
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.form_button {
+    background-color: #3cb371;
+    border: 5px solid green;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px; /* Added margin for better spacing between buttons */
+}
+
+.form_button:hover {
+    background-color: #2e8b57;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    background-color: SeaShell;
+}
